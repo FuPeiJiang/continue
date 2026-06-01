@@ -600,6 +600,8 @@ class VsCodeIde implements IDE {
         "-C",
         "2", // Show 2 lines of context
         "--heading", // Only show filepath once per result
+        "--path-separator",
+        "/",
         // Use a single glob with all default ignores
         "--glob",
         defaultIgnoresGlob,

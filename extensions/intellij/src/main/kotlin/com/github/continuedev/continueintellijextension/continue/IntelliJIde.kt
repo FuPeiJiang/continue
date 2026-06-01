@@ -474,6 +474,8 @@ class IntelliJIDE(
                     "-C",
                     "2",
                     "--heading",
+                    "--path-separator",
+                    "/",
                     "--glob",
                     "!{${defaultIgnorePattern}}" // Exclude all default ignores using brace expansion
                 )
